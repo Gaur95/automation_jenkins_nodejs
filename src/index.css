@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-layout {
+  height: 90%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(215, 215, 255);
+}
+
+.logo {
+  margin-top: 5rem;
+  width: 5%;
+}
+
+.heading {
+  margin: 2rem 0 4rem;
+  color: rgb(255, 0, 0);
+
+  span {
+    color: black;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-row label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.form-row input {
+  border-radius: 3px;
+  border: 2px solid #ffa4a4;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.form-row input:focus {
+  outline-color: #ff3838;
+  outline-width: 3px;
+}
+
+.submit-btn {
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 20, 20);
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: rgb(255, 70, 70);
+}
+
+.final-msg {
+  margin-top: 6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(255, 20, 20);
+}
+
+.hidden {
+  display: none;
+}
